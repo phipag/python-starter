@@ -45,3 +45,19 @@ tox -e python3.10 # Run pytest tests for Python 3.10 environment
 # format -> lint -> pytest against all Python environments
 tox
 ```
+
+### Where to find the Python interpreter path?
+
+It might be useful to find the Python interpreter path for integration with your IDE. Print the path using:
+
+```shell
+poetry env info --path
+```
+
+For usage from command-line directly run:
+
+```shell
+poetry run <command> # Will run any command within the Poetry Python virtual environment
+poetry shell # Will start a new shell as child process (recommended)
+source `poetry env info --path`/bin/activate # Activation in current shell
+```
