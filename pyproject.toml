@@ -8,12 +8,12 @@ authors = ["Philipp Page <github@philipp-page.de>"]
 python = "^3.10"
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2.5"
+pytest = "^7.0.0"
 tox = "^3.24.4"
 isort = "^5.10.1"
-black = "^21.11b1"
+black = "^22.1.0"
 flake8 = "^4.0.1"
-mypy = "^0.910"
+mypy = "^0.931"
 pytest-cov = "^3.0.0"
 
 [build-system]
@@ -27,5 +27,5 @@ line-length = 120
 profile = "black"
 
 [tool.mypy]
-files="python_starter/"
+files="python_starter"
 ignore_missing_imports=true
