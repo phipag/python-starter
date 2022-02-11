@@ -27,5 +27,5 @@ line-length = 120
 profile = "black"
 
 [tool.mypy]
-files="python_starter"
-ignore_missing_imports=true
+files = "python_starter"
+ignore_missing_imports = true
