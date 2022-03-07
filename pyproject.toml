@@ -28,4 +28,3 @@ profile = "black"
 
 [tool.mypy]
 files = "python_starter"
-ignore_missing_imports = true
